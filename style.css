@@ -1,0 +1,259 @@
+    /* common shared styles*/
+    body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .text-primary {
+        color: #FD6E0A;
+    }
+
+
+    .btn-primary {
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: 0;
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 15px 35px;
+    }
+
+    .section-title {
+        color: #181818;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .section-description {
+        color: #757575;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* nav related styles */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 200px;
+    }
+
+    .nav-title {
+        color: #181818;
+        font-size: 45px;
+        font-weight: 800;
+    }
+
+    nav>ul {
+        display: flex;
+        align-items: center;
+    }
+
+    nav li {
+        list-style: none;
+        margin-right: 50px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #474747;
+    }
+
+    /* header related styles */
+    .header {
+        background-color: #FFF8F3;
+        background-image: url('../images/header_bg.png'), url('../images/developer.png');
+        background-repeat: no-repeat;
+        background-position: bottom right, top left;
+    }
+
+    .banner {
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .banner-content {
+        max-width: 500px;
+    }
+
+    .banner .profile-pic {
+        width: 500px;
+    }
+
+    .banner-greeting {
+        font-size: 45px;
+        color: #474747;
+        margin-bottom: 0;
+    }
+
+    .banner-title {
+        font-size: 85px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+
+    /* about me */
+
+
+    .about-me {
+        border-radius: 10px;
+        background: #FFF8F3;
+        padding: 120px;
+
+    }
+
+    .section-title {
+        color: #181818;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .section-description {
+        color: var(--dark-03, #757575);
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 0px 156px;
+        justify-content: center;
+    }
+
+
+
+    .about-info-container {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-info {
+        padding-right: 50px;
+    }
+
+
+    /* main section styles */
+    main {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    main section {
+        margin-top: 130px;
+    }
+
+    /* what i do section */
+
+    .what-i-do {
+        padding-top: 110px;
+    }
+
+    .what-i-do>.title {
+        color: #181818;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .what-i-do>.description {
+        color: #757575;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 30px 150px;
+    }
+
+    /* skills-containe */
+    .skills-container {
+        display: flex;
+        border-radius: 5px;
+        background: #FFF;
+     
+        gap: 24px;
+    }
+    .skill{
+        padding: 30px;
+
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    }
+
+
+
+
+
+/* of-resume */
+
+.resume{
+display:flex;
+}
+.resume>.t {
+    color:#474747;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+}
+
+.resume>.heading {
+    color:#474747;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.resume>.sub {
+    color:#757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.resumet {
+
+    color:#181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resume>.des {
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.rip{
+    max-width: 50%;
+}
